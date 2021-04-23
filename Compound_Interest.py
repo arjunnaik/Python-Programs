@@ -1,0 +1,6 @@
+principleAmount = float(input("Enter principle amount"))
+rateOfInterest = float(input("Enter rate of interest"))
+timePeriod = float(input("Enter time period"))
+ci = principleAmount*((1+rateOfInterest/100)**timePeriod)
+print("Compound Interest is",ci-principleAmount)
+print("Total Amount is ",ci)
